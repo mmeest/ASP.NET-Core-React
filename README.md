@@ -108,7 +108,7 @@ ReactDOM.render(
 
 **Embedding JavaScript in JSX**
 JavaScript expressions may be embedded within JSX expressions. The embedded JavaScript expression must be wrapped in curly braces.
-In the provided example, we are embedding the JavaScript expression 10 * 10 within the <h1> tag. When this JSX expression is rendered to the DOM, the embedded JavaScript expression is evaluated and rendered as 100 as the content of the h1 tag.
+In the provided example, we are embedding the JavaScript expression 10 * 10 within the h1 tag. When this JSX expression is rendered to the DOM, the embedded JavaScript expression is evaluated and rendered as 100 as the content of the h1 tag.
 
 ```
 let expr = <h1>{10 * 10}</h1>;
