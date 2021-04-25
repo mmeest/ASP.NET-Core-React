@@ -90,6 +90,7 @@ const title = <h1>Welcome all!</h1>
 
 **JSX attributes**
 The syntax of JSX attributes closely resembles that of HTML attributes. In the block of code, inside of the opening tag of the <h1> JSX element, we see an id attribute with the value "example".
+  
 ```
 const example = <h1 id="example">JSX Attributes</h1>;
 ```
@@ -107,6 +108,7 @@ ReactDOM.render(
 **Embedding JavaScript in JSX**
 JavaScript expressions may be embedded within JSX expressions. The embedded JavaScript expression must be wrapped in curly braces.
 In the provided example, we are embedding the JavaScript expression 10 * 10 within the <h1> tag. When this JSX expression is rendered to the DOM, the embedded JavaScript expression is evaluated and rendered as 100 as the content of the <h1> tag.
+
 ```
 let expr = <h1>{10 * 10}</h1>;
 // above will be rendered as <h1>100</h1>
