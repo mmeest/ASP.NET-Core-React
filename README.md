@@ -82,7 +82,7 @@ const myList = (
 ```
 
 **JSX syntax and HTML**
-In the block of code we see the similarities between JSX syntax and HTML: they both use the angle bracket opening and closing tags (<h1> and </h1>).
+In the block of code we see the similarities between JSX syntax and HTML: they both use the angle bracket opening and closing tags.
 When used in a React component, JSX will be rendered as HTML in the browser.
 ```
 const title = <h1>Welcome all!</h1>
